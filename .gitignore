@@ -1,0 +1,5 @@
+# Local history cache & temporary files
+.history/
+*.log
+.DS_Store
+Thumbs.db

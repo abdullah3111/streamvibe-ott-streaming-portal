@@ -1,0 +1,124 @@
+iframe{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70vh;
+    width: 100%;
+}
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.owl-prev, .owl-next {
+    position: absolute !important;
+    background-color: #333 !important;
+    color: white !important;
+    font-weight: bold !important;
+    border-radius: 50px !important;
+    font-size: 1.5em !important;
+    border: 1px solid !important;
+    /* width: 38px; */
+}
+.info p {
+    background-color: #e90101 !important;
+    padding: 9px;
+    border-radius: 30px;
+    text-align: center;
+    width: 100%;
+    display: none;
+}
+.series-item:hover p{
+    display: inline;
+    transform: translateX(0%);
+    /* transition: ease-in 5s; */
+    width: 90%;
+    margin-top: 0;
+    margin-right: 10px;
+
+}
+/* .series-item:hover{
+    height: 53vh !important;
+} */
+.info h3{
+    margin-top: 0 !important;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.info h3{
+    text-align: center;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+   box-sizing: border-box !important;
+   margin-left: 5px !important;
+  margin-right: 5px !important;
+}
+.owl-prev span{
+    font-size: 36px;
+    position: relative;
+    bottom: 5px;
+}
+.owl-next span{
+    font-size: 36px;
+    position: relative;
+    bottom: 5px;
+}
+
+.owl-stage-outer{
+    height: 58vh;
+}
+
+.owl-nav button{
+height: 39px;
+    width: 38px !important;
+
+}
+.owl-prev:hover, .owl-next:hover {
+    background-color: #e90101 !important;
+}
+
+@media (max-width: 1144px) {
+    .owl-prev {
+        left: 89%;
+    }
+
+    .owl-next {
+        right: 10px;
+    }
+}
+
+@media (max-width: 768px) {
+  
+    .owl-carousel .series-item {
+        margin: 0 5px;
+    }
+
+    .owl-prev {
+        left: 87%;
+    }
+
+    .owl-next {
+        right: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+
+    .owl-carousel .series-item {
+        margin: 0 2px;
+    }
+
+    .owl-prev {
+        left: 85%;
+    }
+
+    .owl-next {
+        right: 10px;
+    }
+}
